@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', sans-serif
+}
+
+.container1 {
+    display: flex;
+    background-color: #FFF3F3;
+    padding: 2% 0% 2% 3%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.headlogo {
+    flex-grow: 2;
+    width: 40%
+}
+
+.headlogo img {
+    width: 65%;
+}
+
+.fswd {
+    flex-grow: 3;
+    width: 75%
+}
+
+.fswd img {
+    width: 94%;
+    padding-left: 3%
+}
+
+.navbar1 ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #8E1616;
+}
+
+li {
+    float: left;
+    margin-left: 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px 6px 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: white;
+    color: black
+}
+
+#header {
+    position: absolute;
+    color: white;
+    margin: 45px 0px 0px 45px;
+    font-size: 65px;
+}
+
+#bg {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.transparentbox {
+    border: solid 3px grey;
+    border-radius: 5px;
+    width: 88%;
+    float: left;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 13%;
+    background-color: white;
+    opacity: 0.8;
+}
+
+#quote {
+    font-size: 68px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.container3 {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 12%;
+
+}
+
+.form {
+    width: 46%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.inputbox {
+    width: 68%;
+    padding: 10px 10px;
+    line-height: 140%;
+    font-size: 25px;
+    border: solid 2px black;
+    margin-bottom: 20px;
+}
+
+#dropdown {
+    width: 73%;
+    padding: 10px 10px;
+    font-size: 25px;
+    background-color: white;
+}
+
+#textbox {
+    background-color: #CECECE;
+    text-align: center;
+}
+
+#calcbtn {
+    margin: 15px 0px 70px 36%;
+    width: 28%;
+    border-radius: 20px;
+    font-size: 50px;
+    background-color: green;
+    color: white
+}
+
+#rescalc {
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    margin-bottom: 6.5%;
+}
+
+#textbox {
+    font-size: 35px;
+    padding: 69px 0px 30px 0px;
+}
+
+#bigtext {
+    font-size: 55px
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    margin: 100px 40px;
+    padding: 40px;
+    width: 34%;
+    border-top: solid 2px black;
+    box-shadow: 0px 0px 7px grey;
+}
+
+.bluefont {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: darkblue;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.notbluefont {
+    font-size: 20px;
+}
+
+.tick {
+    color: lightblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.marktext {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.ticktext {
+    margin: 20px 0px
+}
+
+.boldtext {
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.greytext {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: grey;
+}
+
+.navbar2 ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+.footer {
+    width: 100%;
+    bottom: 0;
+    background-color: black;
+    align-items: center;
+}
+
+#footdiv img {
+    width: 23%;
+    margin-left: 75%
+}
+
+#namecf {
+    font-size: 120%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .container3 {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 12%;
+
+    }
+
+    .form {
+        width: 46%;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #calcbtn {
+    	margin-bottom: 20px;
+    	font-size: 50px;
+    }
+    #rescalc {
+    	margin-bottom:  20px;
+    	font-size: 30px;
+    }
+    .inputbox {
+        width: 68%;
+        padding: 7px 7px;
+        line-height: 140%;
+        font-size: 25px;
+        border: solid 2px black;
+        margin-bottom: 20px;
+    }
+
+    #dropdown {
+        width: 73%;
+        padding: 7px 7px;
+        font-size: 25px;
+        background-color: white;
+    }
+}
